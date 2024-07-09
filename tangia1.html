@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anh hỏi em??</title>
+  </head>
+  <body>
+    <div id="div1" style="position: absolute">
+      <h1 style="color: red">Do you love me</h1>
+      <button id="yeshehe" onclick="yeS();">Yes</button>
+      <button id="nobitch" onmouseover="No();">No</button>
+    </div>
+    <script>
+      function No() {
+        document.getElementById("div1").style.left =
+          parseInt(Math.random() * 400) + "px";
+        document.getElementById("div1").style.top =
+          parseInt(Math.random() * 400) + "px";
+      }
+      function yeS() {
+        alert("I LOVE YOU TOO");
+      }
+    </script>
+  </body>
+</html>
